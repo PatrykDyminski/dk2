@@ -1,21 +1,8 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-
-import Header from '../components/Header.jsx';
-import Footer from '../components/Footer.jsx';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts'
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body class="px-4 py-4 max-w-3xl mx-auto sm:px-6 lg:max-w-4xl lg:px-8 xl:max-w-6xl min-h-screen">
-		<Header />
-		<main>
-      <h1>DrogaKrólów.pl</h1> 
-		</main>
-		<Footer />
-	</body>
-</html>
+<PageLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+	<h1 class="text-3xl">DrogaKrólów.pl</h1>
+</PageLayout>

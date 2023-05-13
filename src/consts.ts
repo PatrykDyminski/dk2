@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'DrogaKrólów.pl';
 export const SITE_DESCRIPTION = 'I will unite them';
+export const EMAIL = 'drogakrolow.pl@gmail.com';
