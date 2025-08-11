@@ -8,3 +8,6 @@ content:
         label: Title
         type: text
         required: true
+      - name: body
+        label: Body
+        type: rich-text
